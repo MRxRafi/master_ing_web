@@ -55,6 +55,8 @@ public class Fraction {
         this.denominator = denominator;
     }
 
+    public boolean isProper(){ return numerator < denominator; }
+
     public double decimal() {
         return (double) numerator / denominator;
     }
