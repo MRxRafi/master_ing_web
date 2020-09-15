@@ -57,6 +57,12 @@ public class Fraction {
 
     public boolean isProper(){ return numerator < denominator; }
 
+    public Fraction multiply(Fraction otherFraction){
+        int numerator = this.numerator * otherFraction.getNumerator();
+        int denominator = this.denominator * otherFraction.getDenominator();
+        return new Fraction(numerator, denominator);
+    }
+
     public double decimal() {
         return (double) numerator / denominator;
     }
