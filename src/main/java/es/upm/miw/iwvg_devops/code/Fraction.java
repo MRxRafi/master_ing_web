@@ -63,6 +63,12 @@ public class Fraction {
         return new Fraction(numerator, denominator);
     }
 
+    public Fraction division(Fraction otherFraction){
+        int numerator = this.numerator * otherFraction.getDenominator();
+        int denominator = this.denominator * otherFraction.getNumerator();
+        return new Fraction(numerator, denominator);
+    }
+
     public double decimal() {
         return (double) numerator / denominator;
     }
