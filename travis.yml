@@ -4,3 +4,5 @@ branches:
     - develop
     - "/^release-[0-999].[0-999]$/"
     - master
+  install:
+    - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
