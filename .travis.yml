@@ -5,6 +5,6 @@ branches:
     - "/^release-[0-999].[0-999]$/"
     - master
   install:
-    - mvnw mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+    - mvnw install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
   script:
-    - mvnw mvn verify
+    - mvnw verify
