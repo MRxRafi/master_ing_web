@@ -1,2 +1,4 @@
-package es.upm.miw.iwvg_devops.code;public class sadsad {
+package es.upm.miw.iwvg_devops.code;
+
+public class sadsad {
 }
