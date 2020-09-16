@@ -56,6 +56,10 @@ public class Searches {
 
     public Fraction findFirstFractionDivisionByUserId(String id) {
         return null;
+        /* return new UsersDatabase().findAll()
+                .filter(user -> id == user.getId())
+                .map(user -> user.getFractions().stream())
+        */
     }
 
     public Double findFirstDecimalFractionByUserName(String name) {
