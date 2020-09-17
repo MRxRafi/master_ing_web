@@ -2,6 +2,9 @@
 ## Ingeniería Web: Visión General (IWVG) DevOps
 > Este proyecto es una Plantilla de apoyo docente de la asignatura.
 
+### Estado del código
+[![BCH compliance](https://bettercodehub.com/edge/badge/MRxRafi/master_ing_web?branch=master)](https://bettercodehub.com/)
+
 ### :gear: Instalación del proyecto
 1. Clonar el repositorio en tu equipo, **mediante consola**:
 ```sh
