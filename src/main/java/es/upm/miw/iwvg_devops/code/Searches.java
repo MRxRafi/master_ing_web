@@ -47,7 +47,7 @@ public class Searches {
 
     public Fraction findFractionMultiplicationByUserFamilyName(String familyName) {
         return new UsersDatabase().findAll()
-                .filter(user -> familyName == user.getFamilyName())
+                .filter(user -> familyName.equals(user.getFamilyName()))
                 .map(user -> user.getFractions())
                 .flatMap(fractions -> fractions.stream())
                 .reduce((accumulatorFraction, nextFraction) -> accumulatorFraction.multiply(nextFraction))
